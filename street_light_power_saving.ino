@@ -11,7 +11,7 @@ pinMode(led,OUTPUT);
 pinMode(LDR_Vo,INPUT);
 Serial.begin(9600);
 }
-
+// range sensor calculation
 int distance_cal()
 {
   digitalWrite(trig,LOW);
